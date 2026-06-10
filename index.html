@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>螞蟻ann</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="cursor"></div>
+
+  <button id="menu-btn" class="menu-btn">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <div id="side-menu" class="side-menu">
+    <a href="#works">Works</a>
+    <a href="#photography">Photography</a>
+    <a href="#project">Project</a>
+    <a href="#about">About</a>
+  </div>
+
+  <div id="bg-canvas"></div>
+
+  <div id="info">
+    <h1>螞蟻ann</h1>
+  </div>
+
+  <nav>
+    <a href="#works">Works</a>
+    <a href="#photography">Photography</a>
+    <a href="#project">Project</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <div id="hint">MOVE YOUR MOUSE TO INTERACT</div>
+
+  <section id="works" class="works-section">
+
+    <h2>WORKS</h2>
+
+    <div class="works-subtitle">PROCESSING</div>
+
+    <div class="works-row">
+
+      <div class="work-card">
+        <div id="hand-canvas" class="hand-canvas-wrap"></div>
+        <h3>Hand</h3>
+        <p>202605 / Processing</p>
+      </div>
+
+      <div class="work-card">
+        <div id="wave-canvas" class="wave-canvas-wrap"></div>
+        <h3>Wave</h3>
+        <p>202510 / p5.js</p>
+      </div>
+
+      <div class="work-card">
+        <img src="loop.jpg" class="work-image" alt="Loop">
+        <h3>Loop</h3>
+        <p>202509 / p5.js</p>
+      </div>
+
+      <div class="work-card">
+        <div id="jellyfish-canvas" class="jellyfish-canvas-wrap"></div>
+        <h3>Jellyfish</h3>
+        <p>202507 / p5.js</p>
+      </div>
+
+      <div class="work-card">
+        <div id="cat-canvas" class="cat-canvas-wrap"></div>
+        <h3>Cat And People</h3>
+        <p>202503 / Processing</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="photo-wrapper">
+
+    <div id="photography" class="photo-area">
+
+      <div class="works-subtitle photo-subtitle">PHOTOGRAPHY</div>
+
+      <div class="photo-layout">
+
+        <div class="photo-left">
+          <h2>PHOTOGRAPHY</h2>
+        </div>
+
+        <div class="photo-stage">
+
+          <div class="photo-stack">
+            <img src="images/1.JPG" class="photo-card active" alt="">
+            <img src="images/2.JPG" class="photo-card" alt="">
+            <img src="images/3.JPG" class="photo-card" alt="">
+            <img src="images/4.JPG" class="photo-card" alt="">
+            <img src="images/5.JPG" class="photo-card" alt="">
+            <img src="images/6.JPG" class="photo-card" alt="">
+            <img src="images/7.JPG" class="photo-card" alt="">
+          </div>
+
+        </div>
+
+        <div class="photo-info">
+          <p>Driftwood</p>
+          <p>2025</p>
+          <p class="photo-count">1 / 7</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="project" class="project-section">
+
+    <div class="project-title">
+     
+      <h2>PROJECT</h2>
+    </div>
+
+    <a href="project.html" class="project-card">
+
+      <div class="project-image">
+        
+      </div>
+
+      <div class="project-info">
+        <h3>專題</h3>
+   
+
+        <p class="project-desc">
+          。
+        </p>
+      </div>
+
+    </a>
+
+  </section>
+
+  <section id="about" class="about-section">
+
+    <div class="about-left">
+      <h2>ABOUT</h2>
+    </div>
+
+    <div class="about-right">
+
+      <div class="about-text">
+        <h2>螞蟻ann</h2>
+
+        <h3>
+          作品以 Processing、p5.js 為主。<br>
+          目前學習 Processing、p5.js、TouchDesigner 等工具進行創作。
+        </h3>
+      </div>
+
+      <div class="about-info">
+
+        <div class="info-block">
+          <span>EMAIL</span>
+          <p>weool1255@gmail.com</p>
+        </div>
+
+        <div class="info-block">
+          <span>TOOLS</span>
+          <p>Processing / p5.js / TouchDesigner</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <script src="front_page.js"></script>
+  <script src="hand.js"></script>
+  <script src="wave.js"></script>
+  <script src="jellyfish.js"></script>
+  <script src="catandpeople.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>
