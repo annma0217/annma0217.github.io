@@ -3,13 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>螞蟻ann</title>
+  <title>螞蟻ann｜Yi-Ann, Ma</title>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
@@ -28,9 +27,16 @@
   <div id="side-menu" class="side-menu">
     <a href="#works">Works</a>
     <a href="#photography">Photography</a>
-    <a href="#project">Project</a>
+    <a href="#video">Video</a>
     <a href="#about">About</a>
   </div>
+
+  <nav>
+    <a href="#works">Works</a>
+    <a href="#photography">Photography</a>
+    <a href="#video">Video</a>
+    <a href="#about">About</a>
+  </nav>
 
   <div id="bg-canvas"></div>
 
@@ -38,19 +44,10 @@
     <h1>螞蟻ann</h1>
   </div>
 
-  <nav>
-    <a href="#works">Works</a>
-    <a href="#photography">Photography</a>
-    <a href="#project">Project</a>
-    <a href="#about">About</a>
-  </nav>
-
   <div id="hint">MOVE YOUR MOUSE TO INTERACT</div>
 
   <section id="works" class="works-section">
-
     <h2>WORKS</h2>
-
     <div class="works-subtitle">PROCESSING</div>
 
     <div class="works-row">
@@ -86,11 +83,9 @@
       </div>
 
     </div>
-
   </section>
 
   <section class="photo-wrapper">
-
     <div id="photography" class="photo-area">
 
       <div class="works-subtitle photo-subtitle">PHOTOGRAPHY</div>
@@ -102,16 +97,15 @@
         </div>
 
         <div class="photo-stage">
-<div class="photo-stack">
-  <img src="./1.JPG" class="photo-card active" alt="">
-  <img src="./2.JPG" class="photo-card" alt="">
-  <img src="./3.JPG" class="photo-card" alt="">
-  <img src="./4.JPG" class="photo-card" alt="">
-  <img src="./5.JPG" class="photo-card" alt="">
-  <img src="./6.JPG" class="photo-card" alt="">
-  <img src="./7.JPG" class="photo-card" alt="">
-</div>
-
+          <div class="photo-stack">
+            <img src="1.JPG" class="photo-card active" alt="">
+<img src="2.JPG" class="photo-card" alt="">
+<img src="3.JPG" class="photo-card" alt="">
+<img src="4.JPG" class="photo-card" alt="">
+<img src="5.JPG" class="photo-card" alt="">
+<img src="6.JPG" class="photo-card" alt="">
+<img src="7.JPG" class="photo-card" alt="">
+          </div>
         </div>
 
         <div class="photo-info">
@@ -121,36 +115,77 @@
         </div>
 
       </div>
+    </div>
+  </section>
+
+ <section id="video" class="video-section">
+
+  <div class="video-title">
+    
+    <h2>VIDEO / GIF</h2>
+  </div>
+
+  <div class="motion-carousel">
+
+    <button class="motion-btn motion-prev">‹</button>
+
+    <div class="motion-view">
+
+      <div class="motion-slide active">
+        <div class="motion-cover">
+          <img src="images/8.GIF" alt="">
+        </div>
+
+        <div class="motion-info">
+          <h3>RUN</h3>
+          <p>2025 GIF</p>
+        </div>
+      </div>
+
+      <div class="motion-slide">
+        <div class="motion-cover">
+          <video muted loop playsinline preload="auto">
+            <source src="images/9.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="motion-info">
+          <h3>Motion 02</h3>
+          <p>Video Work</p>
+        </div>
+      </div>
+
+      <div class="motion-slide">
+        <div class="motion-cover">
+          <img src="images/8.GIF" alt="">
+        </div>
+
+        <div class="motion-info">
+          <h3>Motion 03</h3>
+          <p>GIF Animation</p>
+        </div>
+      </div>
+
+      <div class="motion-slide">
+        <div class="motion-cover">
+          <video muted loop playsinline preload="auto">
+            <source src="9.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="motion-info">
+          <h3>Motion 04</h3>
+          <p>Video Work</p>
+        </div>
+      </div>
 
     </div>
 
-  </section>
+    <button class="motion-btn motion-next">›</button>
 
-  <section id="project" class="project-section">
+  </div>
 
-    <div class="project-title">
-     
-      <h2>PROJECT</h2>
-    </div>
-
-    <a href="project.html" class="project-card">
-
-      <div class="project-image">
-        
-      </div>
-
-      <div class="project-info">
-        <h3>專題</h3>
-   
-
-        <p class="project-desc">
-          。
-        </p>
-      </div>
-
-    </a>
-
-  </section>
+</section>
 
   <section id="about" class="about-section">
 
