@@ -765,3 +765,15 @@ nav a{
     right:8px;
   }
 }
+.about-left{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+}
+
+.about-photo{
+  width:280px;
+  margin-top:40px;
+  object-fit:cover;
+  border:1px solid rgba(255,255,255,0.2);
+}
