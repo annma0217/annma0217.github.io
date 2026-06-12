@@ -748,9 +748,8 @@ nav a{
 .motion-btn{
   position:absolute;
 
-  top:250px;
-
-  transform:translateY(-50%);
+   top:50%;
+  transform:translateY(-100%);
 
   width:46px;
   height:46px;
