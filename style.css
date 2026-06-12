@@ -598,9 +598,10 @@ nav a{
 
 .about-photo{
   width:420px;
-  height:420px;
-  object-fit:cover;
-  margin-top:0;
+  height:auto;
+
+  object-fit:contain;
+
   border:1px solid rgba(255,255,255,0.2);
 }
 
