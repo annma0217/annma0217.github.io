@@ -672,12 +672,13 @@ nav a{
 }
 
 .motion-carousel{
-    position:relative;
     width:100%;
 
     display:flex;
     justify-content:center;
     align-items:center;
+
+    margin-top:90px;
 }
 
 .motion-view{
