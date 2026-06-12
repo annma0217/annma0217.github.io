@@ -672,24 +672,20 @@ nav a{
 }
 
 .motion-carousel{
-  position:relative;
+    position:relative;
+    width:100%;
 
-  margin-top:90px;
-
-  display:grid;
-  grid-template-columns:260px 1fr;
-
-  align-items:center;
-
-  gap:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 .motion-view{
-  position:relative;
-  width:min(900px,70vw);
-  height:500px;
+    position:relative;
+    width:min(900px,70vw);
+    height:500px;
 
-  margin-left:120px;
+    margin:0 auto;
 }
 .motion-slide{
   position:absolute;
