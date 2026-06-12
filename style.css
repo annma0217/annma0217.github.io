@@ -722,15 +722,11 @@ nav a{
 }
 
 .motion-info{
-  position:static;
+    position:absolute;
+    left:0;
+    bottom:-70px;
 
-  width:100%;
-
-  transform:none;
-
-  color:black;
-
-  pointer-events:none;
+    transform:none;
 }
 
 .motion-info h3{
