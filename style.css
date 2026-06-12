@@ -723,30 +723,25 @@ nav a{
 
 .motion-info{
     position:absolute;
-    left:0;
-    bottom:-70px;
+
+    left:15px;
+    bottom:-95px;
 
     transform:none;
+
+    color:black;
 }
 
 .motion-info h3{
-  font-family:'Noto Sans TC',sans-serif;
-  font-size:48px;
-  font-weight:300;
-
-  margin-bottom:16px;
-
-  line-height:1.1;
+    font-size:48px;
+    font-weight:300;
+    line-height:1.1;
+    margin-bottom:10px;
 }
 
 .motion-info p{
-  font-family:'Cinzel',serif;
-
-  font-size:13px;
-
-  letter-spacing:0.18em;
-
-  color:rgba(0,0,0,0.55);
+    font-size:13px;
+    letter-spacing:0.18em;
 }
 
 .motion-btn{
