@@ -679,8 +679,9 @@ nav a{
 
 .motion-view{
   position:relative;
-  width:min(760px, 58vw);
-  height:430px;
+
+  width:min(900px, 70vw);
+  height:500px;
 }
 
 .motion-slide{
@@ -717,33 +718,35 @@ nav a{
 }
 
 .motion-info{
-  position:fixed;
+  position:absolute;
 
-  left:7vw;
+  width:340px;
+
+  left:-300px;
   top:50%;
 
   transform:translateY(-50%);
 
-  width:320px;
-
   z-index:20;
-
   color:black;
+
   pointer-events:none;
 }
 
 .motion-info h3{
   font-family:'Noto Sans TC',sans-serif;
-  font-size:52px;
+  font-size:48px;
   font-weight:300;
-  margin-bottom:16px;
   line-height:1.1;
+
+  margin-bottom:14px;
 }
 
 .motion-info p{
   font-family:'Cinzel',serif;
-  font-size:15px;
+  font-size:14px;
   letter-spacing:0.18em;
+
   color:rgba(0,0,0,0.55);
 }
 
@@ -766,11 +769,11 @@ nav a{
 }
 
 .motion-prev{
-  left:16vw;
+  left:10vw;
 }
 
 .motion-next{
-  right:16vw;
+  right:10vw;
 }
 
 .motion-btn:hover{
