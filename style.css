@@ -747,7 +747,9 @@ nav a{
 
 .motion-btn{
   position:absolute;
-  top:50%;
+
+  top:250px;
+
   transform:translateY(-50%);
 
   width:46px;
@@ -765,7 +767,6 @@ nav a{
   cursor:pointer;
   z-index:30;
 }
-
 .motion-prev{
   left:11vw;
 }
