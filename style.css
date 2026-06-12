@@ -686,13 +686,11 @@ nav a{
 
 .motion-view{
   position:relative;
-
   width:min(900px,70vw);
   height:500px;
 
-  margin-left:220px;
+  margin-left:120px;
 }
-
 .motion-slide{
   position:absolute;
   inset:0;
